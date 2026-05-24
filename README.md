@@ -1,3 +1,9 @@
 # KE03_INTDEV_SE_1_Base
 
-Dit project is een startpunt voor de eerste inleveropdracht voor alle studenten die het keuzevak Interface Development hebben gekozen. Dit project is een Razor Pages gebaseerde web applicatie inclusief een data access layer.
+Matrix inc bestelsysteem. in dit systeem kan een klant product en onderdelen bestellen en hun orders inzien. gebruikt is ASP.NET.core razor pages.
+functies:
+-producten bekijken en chair bestelllen
+-onderdelen overal bstellen
+-overzicht van bestellingen in order lijst
+
+de database wordt automatisch aangemaakt bij het starten van de applicatie.
