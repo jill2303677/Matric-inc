@@ -1,0 +1,23 @@
+﻿@page
+@model KE03_INTDEV_SE_1_Base.Pages.ProductdetailsModel
+@{
+}
+@foreach (var item in KE03_INTDEV_SE_1_Base.Pages.ProductdetailsModel.Bestellingen)
+{
+    <p style="color:forestgreen">@item.Name</p>
+}
+
+<h1>Producten> Productdetails</h1>
+<h2>Jack-in Chair</h2>
+<p>Stoel met een rugsteun en metalen armen waarin mensen zitten om ingeplugd te worden in de Matrix via een kabel in de nekpoort</p>
+<P>Prijs: 10000 euro </P>
+<form method="post">
+    <input type="hidden" name="naam" value="Jack-in Chair" />
+    <button type="submit" class="btn btn-success">
+        Bestellen Jack-in Chair
+    </button>
+</form>
+<br />
+<a asp-page="/Onderdelen" class="btn btn-primary">
+    Naar onderdelen
+</a>

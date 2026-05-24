@@ -1,0 +1,22 @@
+﻿@page
+@model KE03_INTDEV_SE_1_Base.Pages.OrderModel
+@{
+}
+<h1>Orders</h1>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Bestelling</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model.Orders)
+    {
+        <tr>
+            <td style="color:dodgerblue;">@item.Name besteld!</td>
+        </tr>
+    }
+</tbody>
+</table>

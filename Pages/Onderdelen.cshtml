@@ -1,0 +1,53 @@
+﻿@page
+@model KE03_INTDEV_SE_1_Base.Pages.OnderdelenModel
+@foreach (var item in Model.Bestellingen)
+{
+    <p style="color:dodgerblue;">@item.Name besteld!</p>
+}
+
+<h1>Product > Onderdelen</h1>
+<h2>Tandwiel</h2>
+<p>Prijs: 1200 euro </p>
+<p>Overdracht van rotatie in de motor of luikmechanismen</p>
+<form method="post">
+    <input type="hidden" name="naam" value="Tandwiel" />
+    <button type="submit" class="btn btn-success">
+        Bestellen Tandwiel
+    </button>
+</form>
+
+
+<h2>M5 Boutje</h2>
+<p>Prijs: 10 euro</p>
+<p>Bevestiging van panelen, buizen of interne modules</p>
+<form method="post">
+    <input type="hidden" name="naam" value="Boutje" />
+    <button type="submit" class="btn btn-success">
+        Bestellen Boutje
+    </button>
+</form>
+
+
+<h2>Hydraulische cilinder</h2>
+<p>Prijs: 250 euro</p>
+<p>Openen/sluiten van zware luchtsluizen of bewegende onderdelen</p>
+<form method="post">
+    <input type="hidden" name="naam" value="Hydraulische cilinder" />
+    <button type="submit" class="btn btn-success">
+        Bestellen Hydraulische cilinder
+    </button>
+</form>
+
+
+
+<h2>Koelvloeistofpomp</h2>
+<p>Prijs: 100 euro</p>
+<p>Koeling van de motor of elektronische systemen</p>
+<form method="post">
+    <input type="hidden" name="naam" value="Koelvloeistofpomp"/>
+    <button type="submit" class="btn btn-success">
+        Bestellen Koelvloeistofpomp
+    </button>
+</form>
+
+
